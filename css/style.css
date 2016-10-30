@@ -1,0 +1,62 @@
+/*ColorCombo8344 url:http://www.colorcombos.com/color-schemes/8344/ColorCombo8344.html*/
+
+html{
+  height: 100%;
+}
+body{
+  background-color: #F2EDD8;
+  font-family: 'Lobster Two', cursive;
+  font-size: 34px;
+  min-height: 93%;/*93% because scroll with small content*/
+  position: relative;
+  padding-bottom: 50px;
+}
+.header{
+  width: 88%;
+  height: 55px;
+  margin: auto;
+  padding-bottom: 10px;
+  background-color: #E45641;
+}
+.header-name{
+  display: inline-block;
+  font-size:24px;
+  color: #F1A94E;
+  padding-left: 10px;
+}
+.header-name>h1{
+  margin: auto;
+}
+.header-menu{
+  padding-top: 7px;
+  font-size: 36px;
+  float: right;
+  padding-right: 10px;
+}
+.header-menu>a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 3px 3px 3px;
+  color: #F1A94E;
+}
+.header-menu>a:hover{
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  background-color: #ed5944;
+}
+.header-menu>a.selected{
+  background-color: #ed5944;
+  border: 2px solid #F2EDD8;
+  border-radius: 5px;
+}
+.footer {
+  background-color: #E45641;
+  color: #F2EDD8;
+  font-size: 28px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

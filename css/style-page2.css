@@ -1,0 +1,23 @@
+
+.content{
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+}
+.content>div{
+  background-color: #5D4C46;
+  color: #F1A94E;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.content>div>img{
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}
+img.right{
+  float: right;
+}
+img.left{
+  float: left;
+}
